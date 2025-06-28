@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 
-export default function RootLayout({ children }) {
+export default function UserRootLayout({ children }) {
   return (<>
     <Navigation />
     {children}

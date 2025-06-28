@@ -1,6 +1,5 @@
 import {Roboto, Work_Sans} from "next/font/google";
 import { Work_Sans } from "next/font/google";
-import Navigation from "@/components/Navigation";
 import "@/app/globals.css";
 
 const font = Roboto({
