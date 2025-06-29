@@ -3,7 +3,7 @@ export const metadata = {
     description: "This is the service page of our website",
     keywords: ["service, nextjs, react"],
     icons:{
-        
+        icon: "/vishalrathod.jpg",
     }
 }
 
