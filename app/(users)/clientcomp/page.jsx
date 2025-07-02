@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Counter } from "./Counter";
 
 const ClientComp = () => {
 
@@ -34,6 +35,7 @@ const ClientComp = () => {
             onClick={() => alert("Hello from Client Component!")}>
             Click Me
         </button>
+        <Counter />
 
         <ul className="grid grid-cols-3 gap-5">
             {
