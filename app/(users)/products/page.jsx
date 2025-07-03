@@ -8,7 +8,6 @@ const Products = async ({ searchParams }) => {
   const sort = searchParam?.sort || "asc";
   const page = searchParam?.page || 1;
 
-  
   return (
     <>
       <div>
